@@ -119,3 +119,44 @@ html, body {
 {
     color: #7f6000;
 }
+
+.sobre-ods
+{
+    background-color: #3d2304;
+    border: 2px solid #deb069;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+}
+.sobre-ods h1
+{
+    text-align: center;
+    color: #deb069;
+    font-size: 36px;
+
+}
+
+.sobre-ods h3
+{
+    color: #deb069;
+    font-size: 28px;
+}
+
+
+.sobre-ods p
+{
+    text-align: justify;
+    margin: 25px 0;
+    font-size: 22px;
+}
+.lista-ods16 {
+    margin-left: 20px;
+}
+.lista-ods16 li {
+    margin-bottom: 15px;
+    font-size: 22px;
+    padding-left: 25px;
+    list-style: square;
+}
