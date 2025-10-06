@@ -227,13 +227,32 @@ html, body {
     font-size: 22px;
 }
 
-.footer {
+/* Estilo pagina nao encontrada*/
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #3d2304;
-    padding: 20px 0;
-    width: 100%;
+.nao-encontrada-page {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
+.nao-encontrada-page h1 {
+    font-size: 48px;
+    color: #deb069;
+    margin-bottom: 20px;
+}
+
+.nao-encontrada-page a 
+{
+    text-decoration: none;
+    color: #deb069;
+    font-weight: bold;
+    font-size: 26px;
+    transition: color 0.3s;
+}
+
+.nao-encontrada-page a:hover {
+    color: #7f6000;
+}
+
+
