@@ -7,18 +7,19 @@ import Artigo from './pages/Artigo'
 import NaoEncontrada from './pages/NaoEncontrada'
 import Menu from './components/Menu/Menu'
 
+
 function App() {
 
 
   return (
     <>
     <Menu />
-    
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<SobreODS />} />
-        <Route path="/artigos" element={<Artigos />} />
-        <Route path="/artigo/:id" element={<Artigo />} />
+        <Route path="/artigos" element={<Artigo />} />
+        <Route path="/artigo/:id" element={<Artigos />} />
         <Route path="*" element={<NaoEncontrada />} />
       </Routes>
     </>

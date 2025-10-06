@@ -6,7 +6,7 @@ html, body {
 
 }
 
-
+/* Estilo Menu*/
 .menu{
     display: flex;
     width: 100%;
@@ -47,6 +47,8 @@ html, body {
     border-radius: 20px;
     transition: 0.5s;
 }
+
+/* Estilo Home*/
 
 .home
 {
@@ -119,6 +121,7 @@ html, body {
 {
     color: #7f6000;
 }
+/** Estilo Sobre ODS*/
 
 .sobre-ods
 {
@@ -127,7 +130,6 @@ html, body {
     margin: 20px;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
     line-height: 1.6;
 }
 .sobre-ods h1
@@ -159,4 +161,79 @@ html, body {
     font-size: 22px;
     padding-left: 25px;
     list-style: square;
+}
+
+/* Estilo CardArtigo*/
+
+.artigo-page
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-artigo {
+    background-color: #3d2304;
+    border: 2px solid #deb069;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-artigo a 
+{
+    text-decoration: none;
+    color: #deb069;
+    font-weight: bold;
+    font-size: 26px;
+    transition: color 0.3s;
+}
+
+
+.card-artigo a:hover 
+{
+    color: #7f6000;
+}
+
+.artigo-completo
+{
+    background-color: #3d2304;
+    border: 2px solid #deb069;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.artigo-completo h1
+{
+    text-align: center;
+    color: #deb069;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.artigo-completo p
+{
+    text-align: justify;
+    margin: 25px 0;
+    font-size: 22px;
+}
+
+.footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d2304;
+    padding: 20px 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
